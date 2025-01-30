@@ -11,6 +11,7 @@ function NotFound() {
             <Image src='/spinning-out-of-control.jpg' alt="When your life is spinning out of control" width="800" height="450" fluid />
             </Col>
             </Row>
+            <br />
             <Row>
             <Col>
             <p>The page you're looking for doesn't exist.</p>
