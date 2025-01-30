@@ -1,4 +1,4 @@
-"# coding-temple-react-with-bootstrap" 
+# coding-temple-react-with-bootstrap
 
 npx create-vite project-name-here --template react if new project
 
