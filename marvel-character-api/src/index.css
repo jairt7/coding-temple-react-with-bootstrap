@@ -1,0 +1,149 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1, h2 {
+  color: #d32f2f; /* Marvel Red */
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navigation Bar */
+.navigationBar {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navigationBar a {
+  margin: 0 15px;
+  font-size: 18px;
+  color: white;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.navigationBar a:hover {
+  color: #d32f2f;
+}
+
+.navigationBar a.active {
+  font-weight: bold;
+  color: #d32f2f;
+  border-bottom: 2px solid #d32f2f;
+}
+
+/* Home Page */
+div {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Character List */
+.characters {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.characterList {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.characterList li {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.characterList li:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.characterList button {
+  background: none;
+  border: none;
+  padding: 15px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.characterList h5 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.characterList p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Character Details */
+.characterDetails {
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.characterDetails img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.characterDetails ul {
+  list-style: none;
+  padding: 0;
+}
+
+.characterDetails li {
+  margin: 5px 0;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+/* Not Found Page */
+h2 {
+  font-size: 36px;
+}
+
+p {
+  font-size: 18px;
+}
+
+/* Footer or Other Misc */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  margin-top: 20px;
+}
